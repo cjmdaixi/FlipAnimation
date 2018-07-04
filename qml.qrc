@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>background.png</file>
+        <file>FlipCards.qml</file>
+    </qresource>
+</RCC>
