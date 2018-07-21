@@ -82,7 +82,7 @@ Rectangle {
 
         Label{
             id: emailLabel
-            text: "jimmy.chen@apple.com"
+            text: "alex.pinkm@apple.com"
             font{family: "Arial"; pixelSize: 13}
             wrapMode: Text.WordWrap
             color: "#6a6a6a"

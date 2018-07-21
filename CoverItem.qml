@@ -36,7 +36,7 @@ Rectangle {
     }
     Label{
         id: emailLabel
-        text: "jimmy.chen@apple.com"
+        text: "alex.pinkm@apple.com"
         anchors{left: nameLabel.left; top: companyLabel.bottom; topMargin: 0; right: parent.right}
         font{family: "Arial"; pixelSize: 13}
         wrapMode: Text.WordWrap
