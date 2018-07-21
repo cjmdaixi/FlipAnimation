@@ -3,5 +3,12 @@
         <file>main.qml</file>
         <file>background.png</file>
         <file>FlipCards.qml</file>
+        <file>CoverItem.qml</file>
+        <file>photo1.png</file>
+        <file>photo2.png</file>
+        <file>more.svg</file>
+        <file>FlipContent.qml</file>
+        <file>icon_facebook.svg</file>
+        <file>icon_twitter.svg</file>
     </qresource>
 </RCC>

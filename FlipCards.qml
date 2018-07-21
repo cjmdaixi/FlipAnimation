@@ -91,7 +91,6 @@ Item {
                         flipContent.layer.enabled = false;
                         flipContent.visible = true;
                         bottomCard.visible = false;
-                        topMouseArea.visible = false;
                         root.expanding = false;
                         root.folded = false;
                     }
@@ -108,7 +107,6 @@ Item {
                         flipContent.layer.enabled = true;
                         flipContent.visible = false;
                         bottomCard.visible = true;
-                        topMouseArea.visible = true;
                         root.folding = true;
                     }
                 }
@@ -145,14 +143,6 @@ Item {
                 card.foldAnimation.stopped.connect(prev.foldAnimation.start);
                 prev = card;
             }
-        }
-    }
-
-    MouseArea{
-        id: topMouseArea
-        anchors.fill: parent
-        onClicked: {
-            root.beginExpand();
         }
     }
 
